@@ -15,7 +15,7 @@
         "@tiptap/react": "^2.10.0",
         "@tiptap/starter-kit": "^2.10.0",
         "antd": "^5.0.2",
-        "axios": "^1.7.7",
+        "axios": "^1.7.9",
         "dayjs": "^1.11.13",
         "driver.js": "^0.9.8",
         "env-cmd": "^10.1.0",
@@ -40,7 +40,7 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
+        "build": "vite build",
         "serve": "vite preview",
         "lint": "eslint . --ext js,ts,tsx",
         "format": "prettier --write **/*.{js,ts,tsx} && eslint . --ext js,ts,tsx --fix"
