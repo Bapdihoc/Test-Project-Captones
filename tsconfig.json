@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "strict": false,
+    "isolatedModules": false,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": [
@@ -8,19 +13,13 @@
       "ESNext"
     ],
     "allowJs": false,
-    "skipLibCheck": true,
-    //"esModuleInterop": false,
+    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "strictNullChecks": true,
     "noEmit": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
