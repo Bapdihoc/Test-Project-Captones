@@ -5,6 +5,9 @@ import vitePluginImp from 'vite-plugin-imp';
 import svgrPlugin from 'vite-plugin-svgr';
 
 export default defineConfig({
+    optimizeDeps: {
+        include: ['antd'],
+    },
     resolve: {
         alias: {
             '@': path.join(__dirname, 'src'),
@@ -32,7 +35,7 @@ export default defineConfig({
             libList: [
                 {
                     libName: 'antd',
-                    style: name => `antd/es/${name}/style/index.css`,
+                    style: name => `antd/es/index.d.ts`,
                 },
                 {
                     libName: 'lodash',
